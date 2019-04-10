@@ -89,18 +89,27 @@ input {
 .navbar a {
   float: left;
   color: white;
-  padding: 14px 16px;
+  padding: 6px 9px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 15px;
 }
 
-.navbar img {
+.storm_logo_container {
+}
+
+.storm_logo_container img {
+  width: 60px;
+  padding: 8px 9px;
+  float: left;
+}
+
+.burger_menu_ikon_container {
   background: black;
   display: block;
   position: absolute;
   right: 0;
   top: 0;
-  width: 60px;
+  width: 35px;
 }
 
 .navbar a:hover {
@@ -109,14 +118,8 @@ input {
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: #29abe2;
   color: white;
+  border: solid black;
+  border-width: thin;
 }
-
-
-
-
-
-
-
-
