@@ -68,15 +68,12 @@ input {
 	border-color: black;
 }
 
-/*navigations bar*/
-
 .nav-mobile {
-  max-width: 100%;
+  max-width: 480px;
   margin: auto;
   background-color: #555;
   color: white;
   border-radius: 10px;
- 
 }
 
 .navbar {
@@ -90,11 +87,11 @@ input {
 }
 
 .navbar a {
+  float: left;
   color: white;
-  padding: 6px 16px;
+  padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  display: block;
 }
 
 .navbar img {
@@ -103,7 +100,7 @@ input {
   position: absolute;
   right: 0;
   top: 0;
-    width: 40px;
+  width: 60px;
 }
 
 .navbar a:hover {
