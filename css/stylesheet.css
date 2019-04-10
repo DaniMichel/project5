@@ -1,6 +1,7 @@
   body {
   background-image: url("/billeder/spil.png");
   background-size: cover;
+  background-repeat: no-repeat;
   font-family:Arial, Helvetica;
   font-size: 18px;
   line-height: 1.5;
