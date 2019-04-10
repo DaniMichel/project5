@@ -2,7 +2,7 @@
   background-image: url("/billeder/spil_mobil.png");
   background-size: cover;
   background-repeat: no-repeat;
-  font-family:Arial, Helvetica;
+  font-family: Montserrat, sans-serif;
   font-size: 18px;
   line-height: 1.5;
   margin: 0;
@@ -46,11 +46,13 @@
 #showcase h1 {
   font-size: 40px;
   color: black;
+  font-weight: bold;
 }
 
 .text_headline{
   text-align: center;
   font-size: 40px;
+  font-weight: bold;
 }
 
 input {
