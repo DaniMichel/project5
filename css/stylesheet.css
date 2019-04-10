@@ -67,3 +67,59 @@ input {
 	color: white;
 	border-color: black;
 }
+
+/*navigations bar*/
+
+.nav-mobile {
+  max-width: 100%;
+  margin: auto;
+  background-color: #555;
+  color: white;
+  border-radius: 10px;
+ 
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.navbar #myLinks {
+  display: none;
+}
+
+.navbar a {
+  color: white;
+  padding: 6px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.navbar img {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+    width: 40px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+
+
+
+
+
