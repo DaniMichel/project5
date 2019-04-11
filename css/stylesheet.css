@@ -128,7 +128,24 @@ input {
 /*play, pause, mute*/
 
 button#playpausebtn {
-	background:url(images/pause.png) no-repeat;
-	width:12px;
-	height:14px;
+	background:url(../billeder/storm_pause_ikon.svg) no-repeat;
+    width: 15px;
+    height: 16px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
 }
+button#mutebtn{
+	background:url() no-repeat;
+	    width: 15px;
+    height: 16px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+
