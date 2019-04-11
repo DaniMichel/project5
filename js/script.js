@@ -17,3 +17,14 @@ function myFunction() {
     x.style.display = "none";
   }
 }
+
+//Play pause mute button//
+
+let audio, playbtn, seek_bar;
+function initAudioplayer(){
+    audio = new Audio();
+    audio.src ="../sound/sommer_sound/sommer_sound_mixdown.mp3";
+    audio.loop = true;
+    audio.play ();
+}
+window.addEventListener("load", initAudioplayer);

@@ -68,6 +68,7 @@ input {
 	border-color: black;
 }
 
+/*navigation*/
 .nav-mobile {
   max-width: 480px;
   margin: auto;
@@ -122,4 +123,12 @@ input {
   color: white;
   border: solid black;
   border-width: thin;
+}
+
+/*play, pause, mute*/
+
+button#playpausebtn {
+	background:url(images/pause.png) no-repeat;
+	width:12px;
+	height:14px;
 }
