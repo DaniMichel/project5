@@ -22,7 +22,7 @@ function myFunction() {
 let audio, playbtn, mutebtn, seek_bar;
 function initAudioPlayer(){
 	audio = new Audio();
-	audio.src = "../sound/sommer_sound/sommer_sound_mixdown.mp3";
+	audio.src = "../sound/track_storm/track_storm.mp3"
 	audio.loop = true;
 	audio.play();
     
