@@ -9,16 +9,32 @@
     <meta name="author" content="Morten Bruun Westergaard">
     <title>Projekt 5</title>
     <link rel="stylesheet" href="css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <script src="js/script.js" defer></script>
 </head>
 
 <body>
+   
+<div class="nav-mobile">
 
-    <audio autoplay loop>
-        <source src="sound/sommer_sound/sommer_sound_mixdown.mp3" type="audio/mpeg">
-        Din browser understøtter ikke vores musik fil
+    <div class="navbar">
+      <div class="storm_logo_container">
+          <img src="billeder/storm_text_logo_negative.png" class="active">
+     </div>
+    <div id="myLinks">
+       <button id="playpausebtn"></button>
+        <button id="mutebtn"></button>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+     </div>
+       <div class="burger_menu_ikon_container">
+      <img src="billeder/burger_menu_ikon.svg" alt="Menu" onclick="myFunction()">
+      </div>
+    </div>
 
-    </audio>
+</div>
+
     <div id="page1">
     <section id="showcase">
       <div class="container">
@@ -52,7 +68,7 @@
     </section>
 
 <div class="button">
-<button class="btn1" onclick="myFunction()">NÆSTE</button>
+<button class="btn1" onclick="Function()">NÆSTE</button>
 </div>
     </div>
 </body>

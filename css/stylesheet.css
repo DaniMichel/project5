@@ -1,8 +1,8 @@
   body {
-  background-image: url("/billeder/spil.png");
+  background-image: url("/billeder/spil_mobil.png");
   background-size: cover;
-  background-repeat: no-repeat; /* does not apply the background more than 1 times */
-  font-family:Arial, Helvetica;
+  background-repeat: no-repeat;
+  font-family: Montserrat, sans-serif;
   font-size: 18px;
   line-height: 1.5;
   margin: 0;
@@ -46,11 +46,13 @@
 #showcase h1 {
   font-size: 40px;
   color: black;
+  font-weight: bold;
 }
 
 .text_headline{
   text-align: center;
   font-size: 40px;
+  font-weight: bold;
 }
 
 input {
@@ -64,4 +66,84 @@ input {
 	background-color: darkred;
 	color: white;
 	border-color: black;
+}
+
+/*navigation*/
+.nav-mobile {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  color: white;
+  border-radius: 10px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.navbar #myLinks {
+  display: none;
+}
+
+.navbar a {
+  float: left;
+  color: white;
+  padding: 6px 9px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.storm_logo_container {
+}
+
+.storm_logo_container img {
+  width: 60px;
+  padding: 8px 9px;
+  float: left;
+}
+
+.burger_menu_ikon_container {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 35px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #29abe2;
+  color: white;
+  border: solid black;
+  border-width: thin;
+}
+
+/*play, pause, mute*/
+
+button#playpausebtn {
+	background:url(../billeder/storm_pause_ikon.svg) no-repeat;
+    width: 15px;
+    height: 16px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+button#mutebtn{
+	background:url(../billeder/storm_sound_on_ikon.svg) no-repeat;
+	    width: 15px;
+    height: 16px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
 }
