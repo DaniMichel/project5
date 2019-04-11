@@ -19,23 +19,22 @@ function myFunction() {
 }
 
 //Play pause mute button//
-
-let audio, playbtn, mutebtn;
-function initAudioplayer(){
-    audio = new Audio();
-    audio.src ="../sound/sommer_sound/sommer_sound_mixdown.mp3";
-    audio.loop = true;
-    audio.play ();
+let audio, playbtn, mutebtn, seek_bar;
+function initAudioPlayer(){
+	audio = new Audio();
+	audio.src = "../sound/sommer_sound/sommer_sound_mixdown.mp3";
+	audio.loop = true;
+	audio.play();
     
-    //set objevt refences//
-    playbtn = document.getElementById("playpausebtn");
-    mutebtn = document.getElementById("mutebtn");
+	// Set object references
+	playbtn = document.getElementById("playpausebtn");
+	mutebtn = document.getElementById("mutebtn");
+	// Add Event Handling
     
-    //Event handling//
-    playbtn.addEventListener("click",playpause)
-    mutebtn.addEventListener("click",mute)
+	playbtn.addEventListener("click",playPause);
+	mutebtn.addEventListener("click", mute);
     
-     // Functions
+	// Functions
 	function playPause(){
 		if(audio.paused){
 		    audio.play();
@@ -44,7 +43,16 @@ function initAudioplayer(){
 		    audio.pause();
 		    playbtn.style.background = "url(../billeder/storm_play_ikon.svg) no-repeat";
 	    }
-    
+	}
+	function mute(){
+		if(audio.muted){
+		    audio.muted = false;
+		    mutebtn.style.background = "url(../billeder/storm_sound_on_ikon.svg) no-repeat";
+	    } else {
+		    audio.muted = true;
+		    mutebtn.style.background = "url(../billeder/storm_mute_ikon.svg) no-repeat";
+	    }
+	}
 }
+window.addEventListener("load", initAudioPlayer);
 
-window.addEventListener("load", initAudioplayer);
