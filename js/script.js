@@ -1,3 +1,4 @@
+//næste function//
 function Function() {
   let x = document.getElementById("page1");
   if (x.style.display === "none") {
@@ -8,13 +9,24 @@ function Function() {
 }
 
 
-
+//menu function//
 function myFunction() {
   let x = document.getElementById("myLinks");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
     x.style.display = "none";
+  }
+}
+
+//backbutton//
+
+function backFunction() {
+  let x = document.getElementById("page1");
+  if (x.style.display === "Block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
   }
 }
 
