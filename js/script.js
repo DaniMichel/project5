@@ -1,4 +1,4 @@
-//næste function//
+//next button//
 function Function() {
   let x = document.getElementById("page1");
   if (x.style.display === "none") {
@@ -7,6 +7,17 @@ function Function() {
     x.style.display = "none";
   }
 }
+
+//back button//
+function backFunction() {
+  let x = document.getElementById("page1");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+
 
 
 //menu function//
@@ -19,16 +30,7 @@ function myFunction() {
   }
 }
 
-//backbutton//
 
-function backFunction() {
-  let x = document.getElementById("page1");
-  if (x.style.display === "Block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
 
 //Play pause mute button//
 let audio, playbtn, mutebtn, seek_bar;

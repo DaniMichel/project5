@@ -72,8 +72,18 @@ input {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.backbutton{
+  height: 80px;
+  margin: 25px;  
+}
 .backBtn{
-    background-image: url("../billeder/");
+    background-image: url("../billeder/backbutton.svg");
+    width: 33%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
 }
 
 #page1{
