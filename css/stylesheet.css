@@ -89,7 +89,7 @@ input {
 #page1{
 background-color: rgba(255, 255, 255, 0.9);
 width: 85%;
-height: 60vh;
+height: 50vh;
 margin: auto;
 margin-top: 30px;
 border-radius: 25px;
@@ -178,7 +178,7 @@ button#mutebtn{
 
 
   #boxes {
-  margin-top: 20px;
+  margin-top: 80px;
   }
 
   #boxes .box {
@@ -188,5 +188,5 @@ button#mutebtn{
 }
 
   #boxes .box img {
-  width: 90px;
+  width: 130px;
 }
