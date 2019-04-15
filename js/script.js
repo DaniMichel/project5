@@ -1,18 +1,23 @@
 //next button//
 function Function() {
   let x = document.getElementById("page1");
+  let backButton = document.getElementById("backbtn")
   if (x.style.display === "none") {
     x.style.display = "block";
+    backButton.style.display = "none";
   } else {
     x.style.display = "none";
+    backButton.style.display = "block";
   }
 }
 
 //back button//
 function backFunction() {
   let x = document.getElementById("page1");
+  let backButton = document.getElementById("backbtn")
   if (x.style.display === "none") {
     x.style.display = "block";
+    backButton.style.display = "none";
   } else {
     x.style.display = "none";
   }
@@ -39,15 +44,15 @@ function initAudioPlayer(){
 	audio.src = "../sound/track_storm/track_storm.mp3"
 	audio.loop = true;
 	audio.play();
-    
+
 	// Set object references
 	playbtn = document.getElementById("playpausebtn");
 	mutebtn = document.getElementById("mutebtn");
 	// Add Event Handling
-    
+
 	playbtn.addEventListener("click",playPause);
 	mutebtn.addEventListener("click", mute);
-    
+
 	// Functions
 	function playPause(){
 		if(audio.paused){
@@ -69,4 +74,3 @@ function initAudioPlayer(){
 	}
 }
 window.addEventListener("load", initAudioPlayer);
-
