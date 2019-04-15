@@ -74,7 +74,7 @@ input {
 }
 .backbutton{
   height: 80px;
-  margin: 25px;  
+  margin: 25px;
 }
 .backBtn{
     background-image: url("../billeder/backbutton.svg");
@@ -82,7 +82,7 @@ input {
     height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
-    
+
 
 }
 
@@ -174,4 +174,19 @@ button#mutebtn{
     cursor: pointer;
     border: none;
     outline: none;
+}
+
+
+  #boxes {
+  margin-top: 20px;
+  }
+
+  #boxes .box {
+    float: left;
+    width: 30%;
+    padding: 0px;
+}
+
+  #boxes .box img {
+  width: 90px;
 }
