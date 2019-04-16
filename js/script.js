@@ -14,6 +14,22 @@ function Function() {
 }
 
 //page 3//
+function page3() {
+  let x = document.getElementById("page1");
+  let page2 = document.getElementById("page2")
+  let panda = document.getElementById("panda")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    page2.style.display = "none";
+
+  } else {
+    x.style.display = "none";
+    page3.style.display = "block";
+    page2.style.display = "none";
+  }
+}
+
+
 
 
 
@@ -27,7 +43,7 @@ function backFunction() {
     x.style.display = "block";
     backButton.style.display = "none";
     page2.style.display = "none";
-    
+
   } else {
     x.style.display = "none";
   }
