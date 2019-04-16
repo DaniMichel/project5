@@ -97,25 +97,6 @@ border-radius: 25px;
 padding-bottom: 15px;
 }
 
-/*pages*/
-#page3{
-display:none;
-}
-#page2{
-    display: none;
-    background-color: rgba(255, 255, 255, 0.9);
-    width: 85%;
-    height: 50vh;
-    margin: auto;
-    margin-top: 30px;
-    border-radius: 25px;
-    padding-bottom: 15px;
-}
-
-#page3{
-display:none;
-}
-
 /*navigation*/
 .nav-mobile {
   max-width: 480px;
@@ -218,3 +199,6 @@ button#mutebtn{
 
 }
 
+#page3{
+display:none;
+}
