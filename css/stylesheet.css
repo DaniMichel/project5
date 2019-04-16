@@ -128,15 +128,7 @@ padding-bottom: 15px;
   font-size: 15px;
 }
 
-.storm_logo_container {
-}
-
-.storm_logo_container img {
-  width: 60px;
-  padding: 8px 9px;
-  float: left;
-}
-
+/*Menu icon*/
 .burger_menu_ikon_container {
   background: black;
   display: block;
@@ -150,13 +142,24 @@ padding-bottom: 15px;
   background-color: #ddd;
   color: black;
 }
-
 .active {
   background-color: #29abe2;
   color: white;
   border: solid black;
   border-width: thin;
 }
+
+.storm_logo_container {
+}
+
+/*Logo*/
+.storm_logo_container img {
+  width: 60px;
+  padding: 8px 9px;
+  float: left;
+}
+
+
 
 /*play, pause, mute*/
 
