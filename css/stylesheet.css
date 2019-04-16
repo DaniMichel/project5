@@ -199,3 +199,13 @@ button#mutebtn{
 #page2{
 margin-top: 200px;
 }
+
+#page3{
+background-color: rgba(255, 255, 255, 0.9);
+width: 85%;
+height: 50vh;
+margin: auto;
+margin-top: 30px;
+border-radius: 25px;
+padding-bottom: 15px;
+}

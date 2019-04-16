@@ -62,10 +62,6 @@
 <div id="page2">
 
 
-
-
-
-
   <section id="boxes">
     <div class="container">
     </div>
@@ -77,19 +73,35 @@
       </div>
 
       <div class="box">
-        <a href="hjemmeside/index.html"><img src="billeder/panda1.png" alt=".log"></a>
+         <img src="billeder/panda.png" alt=".panda"></a>
       </div>
 
       <div class="box">
-        <a href="hjemmeside/index.html"><img src="billeder/løve.png" alt=".log"></a>
+        <img src="billeder/løve.png" alt=".log"></a>
       </div>
 
   </section>
 
-
-
-
     <img id="backbtn" class="backbutton" src="billeder/backbutton.svg" alt="backbutton" onclick="backFunction()">
+
+</div>
+
+<div id="page3">
+
+  <h2 id="app_status">App status...</h2>
+   <div id="drop_zone-head" ondragenter="drag_enter(event)" ondrop="drag_drop(event)" ondragover="return false" ondragleave="drag_leave(event)" ></div>
+   <div id="drop_zone-body" ondragenter="drag_enter(event)" ondrop="drag_drop(event)" ondragover="return false" ondragleave="drag_leave(event)" ></div>
+   <div id="drop_zone-feet" ondragenter="drag_enter(event)" ondrop="drag_drop(event)" ondragover="return false" ondragleave="drag_leave(event)" ></div>
+
+   <img id="panda2"  src="billeder/panda.png" alt="panda" onclick="page3()"> </img>
+
+   <hr>
+   <div class="centerobjects">
+   <div id="hat" class="objects" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">Hat</div>
+   <div id="t-shirt" class="objects" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">T-Shirt</div>
+   <div id="sko" class="objects" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">Sko</div>
+ </div>
+
 
 </div>
 
