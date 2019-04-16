@@ -2,12 +2,14 @@
 function Function() {
   let x = document.getElementById("page1");
   let backButton = document.getElementById("backbtn")
+  let page2 = document.getElementById("page2")
   if (x.style.display === "none") {
     x.style.display = "block";
     backButton.style.display = "none";
   } else {
     x.style.display = "none";
     backButton.style.display = "block";
+    page2.style.display = "block";
   }
 }
 
@@ -15,9 +17,12 @@ function Function() {
 function backFunction() {
   let x = document.getElementById("page1");
   let backButton = document.getElementById("backbtn")
+  let page2 = document.getElementById("page2")
   if (x.style.display === "none") {
     x.style.display = "block";
     backButton.style.display = "none";
+    page2.style.display = "none";
+    
   } else {
     x.style.display = "none";
   }

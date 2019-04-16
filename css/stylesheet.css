@@ -72,10 +72,6 @@ input {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.backbutton{
-  height: 80px;
-  margin: 25px;
-}
 
 #backbtn {
   display: none;
@@ -184,19 +180,21 @@ button#mutebtn{
 
 
   #boxes {
-  margin-top: 80px;
+  margin-top: 350px;
   }
 
   #boxes .box {
     float: left;
     width: 30%;
     padding: 0px;
+    margin-left: 8px;
 }
 
   #boxes .box img {
   width: 130px;
 }
 
-#page2{
-margin-top: 200px;
+.backbutton{
+    width: 80px
+    
 }
