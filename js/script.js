@@ -31,9 +31,6 @@ function page3() {
 
 
 
-
-
-
 //back button//
 function backFunction() {
   let x = document.getElementById("page1");
@@ -46,6 +43,7 @@ function backFunction() {
 
   } else {
     x.style.display = "none";
+      
   }
 }
 
