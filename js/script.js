@@ -3,39 +3,17 @@ function Function() {
   let x = document.getElementById("page1");
   let backButton = document.getElementById("backbtn")
   let page2 = document.getElementById("page2")
-  if (x.style.display === "none") {
-    x.style.display = "block";
-    backButton.style.display = "none";
-  } else {
-    x.style.display = "none";
-    backButton.style.display = "block";
-    page2.style.display = "block";
-  }
+  x.style.display = "none";
+  page2.style.display = "block";
+  backButton.style.display = "block"; 
 }
-
-//page 3//
-function page3() {
-  let x = document.getElementById("page1");
-  let page2 = document.getElementById("page2")
-  let panda = document.getElementById("panda")
-  if (x.style.display === "none") {
-    x.style.display = "block";
-    page2.style.display = "none";
-
-  } else {
-    x.style.display = "none";
-    page3.style.display = "block";
-    page2.style.display = "none";
-  }
-}
-
 
 
 //back button//
 function backFunction() {
   let x = document.getElementById("page1");
-  let backButton = document.getElementById("backbtn")
-  let page2 = document.getElementById("page2")
+  let backButton = document.getElementById("backbtn");
+  let page2 = document.getElementById("page2");
   if (x.style.display === "none") {
     x.style.display = "block";
     backButton.style.display = "none";
@@ -46,7 +24,15 @@ function backFunction() {
       
   }
 }
-
+function myPanda() {
+    
+  let x = document.getElementById("page3");
+  let page2 = document.getElementById("page2");
+  let backButton = document.getElementById("backbtn");
+  x.style.display = "block";
+  page2.style.display = "none";
+  backButton.style.display = "none"; 
+}
 
 
 //menu function//
