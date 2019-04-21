@@ -5,7 +5,7 @@ function Function() {
   let page2 = document.getElementById("page2")
   x.style.display = "none";
   page2.style.display = "block";
-  backButton.style.display = "block"; 
+  backButton.style.display = "block";
 }
 
 
@@ -21,17 +21,17 @@ function backFunction() {
 
   } else {
     x.style.display = "none";
-      
+
   }
 }
 function myPanda() {
-    
+
   let x = document.getElementById("page3");
   let page2 = document.getElementById("page2");
   let backButton = document.getElementById("backbtn");
   x.style.display = "block";
   page2.style.display = "none";
-  backButton.style.display = "none"; 
+  backButton.style.display = "none";
 }
 
 
@@ -84,3 +84,41 @@ function initAudioPlayer(){
 	}
 }
 window.addEventListener("load", initAudioPlayer);
+
+//page 3//
+function _(id){
+   return document.getElementById(id);
+}
+var droppedIn = false;
+function drag_start(event) {
+    _('app_status').innerHTML = "Du har fat i en "+event.target.getAttribute('id');
+    event.dataTransfer.dropEffect = "move";
+    event.dataTransfer.setData("text", event.target.getAttribute('id') );
+}
+function drag_enter(event) {
+    _('app_status').innerHTML = "You are dragging over the "+event.target.getAttribute('id');
+}
+function drag_leave(event) {
+    _('app_status').innerHTML = "You left the "+event.target.getAttribute('id');
+}
+function drag_drop(event) {
+    event.preventDefault(); /* Prevent undesirable default behavior while dropping */
+    var elem_id = event.dataTransfer.getData("text");
+    event.target.appendChild( _(elem_id) );
+    _('app_status').innerHTML = "Dropped "+elem_id+" into the "+event.target.getAttribute('id');
+
+    _(elem_id).style.cursor = "default";
+    droppedIn = true;
+}
+function drag_end(event) {
+    if(droppedIn == false){
+        _('app_status').innerHTML = " "+event.target.getAttribute('id')+" fandt ikke sin rigtige plads, prøv igen.";
+    }
+	droppedIn = false;
+}
+function readDropZone(){
+    for(var i=0; i < _("drop_zone").children.length; i++){
+        alert(_("drop_zone").children[i].id+" is in the drop zone");
+    }
+    /* Run Ajax request to pass any data to your server */
+}

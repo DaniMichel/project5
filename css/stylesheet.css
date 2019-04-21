@@ -218,3 +218,78 @@ button#mutebtn{
 
 }
 
+.objects {
+    display:inline-block;
+    background-color: #FFF3CC;
+    border: black 1px solid;
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    text-align: center;
+    box-shadow: 2px 2px 2px #999;
+    cursor: move;
+}
+
+#app_status {
+  text-align: center;
+
+}
+
+#drop_zone-head {
+    background-color: #EEE;
+    border: #999 1px solid;
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+    font-size: 18px;
+    position: relative;
+    display:inline-block;
+    z-index: +1;
+    top:
+    left:
+}
+
+#drop_zone-body {
+    background-color: #EEE;
+    border: #999 1px solid;
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+    font-size: 18px;
+    position: relative;
+    display:inline-block;
+    z-index: +1;
+    top:
+    left:
+}
+
+#drop_zone-feet {
+  background-color: #EEE;
+  border: #999 1px solid;
+  width: 50px;
+  height: 50px;
+  padding: 8px;
+  font-size: 18px;
+  position: relative;
+  display:inline-block;
+  z-index: +1;
+  top:
+  left:
+
+}
+
+#panda {
+  width: 400px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, 0);
+}
+
+.centerobjects {
+position: absolute;
+  left: 50%
+}
