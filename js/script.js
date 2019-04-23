@@ -120,3 +120,8 @@ function readDropZone(){
     }
     /* Run Ajax request to pass any data to your server */
 }
+
+startbtn.addEventListener("click", function(){
+			animation.style.animation = "animation 0.5s steps(6)";
+			animation.style.webkitAnimation = "animation 0.5s steps(6)";
+		});

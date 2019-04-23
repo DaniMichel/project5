@@ -290,6 +290,29 @@ button#mutebtn{
   -webkit-transform: translate(-50%, 0);
 }
 
+/* Red Panda Animation styling */
+#animation{
+	
+	left: 50%;
+	background: url("file:///C:/Users/Daniel%20M.%20Duvier/Documents/GitHub/project5/billeder/sprite.animation2.png");
+	width: calc(1854px/6);
+	height: 291px;
+	background-repeat: repeat;
+}
+
+@keyframes animation{
+	from{background-position: 0px;}
+	to{background-position: -1850px;}
+	
+}
+
+@-webkit-keyframes animation{
+	from{background-position: 0px;}
+	to{background-position: -1850px;}
+}
+
+/*end of animation styling*/
+
 .centerobjects {
 position: absolute;
   left: 50%
