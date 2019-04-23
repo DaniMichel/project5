@@ -14,16 +14,12 @@ function backFunction() {
   let x = document.getElementById("page1");
   let backButton = document.getElementById("backbtn");
   let page2 = document.getElementById("page2");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-    backButton.style.display = "none";
-    page2.style.display = "none";
-
-  } else {
-    x.style.display = "none";
-
-  }
+  page2.style.display = "none";
+  backButton.style.display = "none";
+  page1.style.display = "block";
 }
+
+
 function myPanda() {
 
   let x = document.getElementById("page3");
@@ -120,3 +116,8 @@ function readDropZone(){
     }
     /* Run Ajax request to pass any data to your server */
 }
+
+startbtn.addEventListener("click", function(){
+			animation.style.animation = "animation 0.5s steps(6)";
+			animation.style.webkitAnimation = "animation 0.5s steps(6)";
+		});

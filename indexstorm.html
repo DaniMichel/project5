@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content=" billigt og professionelt web design">
-    <meta name="keywords" content="web design, billigt og professionelt webdesign">
-    <meta name="author" content="Morten Bruun Westergaard">
+    <meta name="description" content=" app for børn">
+    <meta name="keywords" content="børn, app, 4-7, læring,">
+    <meta name="author" content="Morten Westergaard, Mads Karstoft, Frederik Jørgensen, Daniel Duvier">
     <title>Projekt 5</title>
     <link rel="stylesheet" href="css/stylesheet.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -93,15 +93,31 @@
 <div id="page3">
 
   <h2 id="app_status">Tid til tøj...</h2>
-   <div id="drop_zone-head" ondragenter="drag_enter(event)" ondrop="drag_drop(event)" ondragover="return false" ondragleave="drag_leave(event)" ></div>
+	
+	<button id="startbtn">
+   <div id="drop_zone-head" ondragenter="drag_enter(event)" ondrop="drag_drop(event)" ondragover="return false" ondragleave="drag_leave(event)" ></div></button>
    <div id="drop_zone-body" ondragenter="drag_enter(event)" ondrop="drag_drop(event)" ondragover="return false" ondragleave="drag_leave(event)" ></div>
    <div id="drop_zone-feet" ondragenter="drag_enter(event)" ondrop="drag_drop(event)" ondragover="return false" ondragleave="drag_leave(event)" ></div>
+<<<<<<< HEAD
 
-   <img id="panda"  src="billeder/panda.png" alt="panda" onclick="page3()">
+   <img id="panda" img src="billeder/panda.png" alt="panda" onclick="page3()">
 
    <hr>
    <div class="centerobjects">
+   <div id="hat" class="objects" src="billeder/panda.png" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">Hat</div>
+=======
+<!--Red Panda Animation--> 
+	
+   <div id="animation">
+	</div>
+	
+	
+
+   <hr>
+   <div class="centerobjects">
+	   
    <div id="hat" class="objects" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">Hat</div>
+>>>>>>> c5d02ae80adbff7ee40bca0b56b6076c9eb6a012
    <div id="t-shirt" class="objects" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">T-Shirt</div>
    <div id="sko" class="objects" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">Sko</div>
  </div>

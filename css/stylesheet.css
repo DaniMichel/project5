@@ -232,9 +232,17 @@ button#mutebtn{
     cursor: move;
 }
 
+#hat {
+  background: url(".../billeder/panda.png");
+
+}
+
+
+
+
 #app_status {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 5px;
 }
 
 /*464 * 616*/
@@ -278,7 +286,6 @@ button#mutebtn{
   z-index: +1;
   top: 350px;
   left: 65px;
-
 }
 
 #panda {
@@ -294,3 +301,5 @@ button#mutebtn{
 position: absolute;
   left: 50%
 }
+
+@media screen and (min-width: 768px)
