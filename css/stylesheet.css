@@ -90,7 +90,7 @@ input {
 #page1{
 background-color: rgba(255, 255, 255, 0.9);
 width: 85%;
-height: 50vh;
+height: 350px;
 margin: auto;
 margin-top: 30px;
 border-radius: 25px;
@@ -98,18 +98,16 @@ padding-bottom: 15px;
 }
 
 /*pages*/
-#page3{
-display:none;
-}
 #page2{
     display: none;
     background-color: rgba(255, 255, 255, 0.9);
     width: 85%;
-    height: 50vh;
+    height: 30px;
     margin: auto;
     margin-top: 30px;
     border-radius: 25px;
     padding-bottom: 15px;
+    text-align: center;
 }
 
 #page3{
