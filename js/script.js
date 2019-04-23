@@ -92,20 +92,18 @@ function _(id){
 var droppedIn = false;
 function drag_start(event) {
     _('app_status').innerHTML = "Du har fat i en "+event.target.getAttribute('id');
-    event.dataTransfer.dropEffect = "move";
-    event.dataTransfer.setData("text", event.target.getAttribute('id') );
+    event.dataTransfer.dropEffect = "move";                                         //gør at man kan flytte objekter ind i dropzonen //
+    event.dataTransfer.setData("text", event.target.getAttribute('id') );           //gør at man kan flytte objekter ind i dropzonen //
 }
 function drag_enter(event) {
-    _('app_status').innerHTML = "You are dragging over the "+event.target.getAttribute('id');
+    _('app_status').innerHTML = "Du er nu tæt på  "+elem_id+"rigige plads";
 }
-function drag_leave(event) {
-    _('app_status').innerHTML = "You left the "+event.target.getAttribute('id');
-}
+
 function drag_drop(event) {
     event.preventDefault(); /* Prevent undesirable default behavior while dropping */
     var elem_id = event.dataTransfer.getData("text");
     event.target.appendChild( _(elem_id) );
-    _('app_status').innerHTML = "Dropped "+elem_id+" into the "+event.target.getAttribute('id');
+    _('app_status').innerHTML = "Godt klaret "+elem_id+" er nu på sin rigtige plads";
 
     _(elem_id).style.cursor = "default";
     droppedIn = true;

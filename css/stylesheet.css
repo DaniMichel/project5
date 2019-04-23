@@ -234,9 +234,10 @@ button#mutebtn{
 
 #app_status {
   text-align: center;
-
+  margin-top: 50px;
 }
 
+/*464 * 616*/
 #drop_zone-head {
     background-color: #EEE;
     border: #999 1px solid;
@@ -247,8 +248,8 @@ button#mutebtn{
     position: relative;
     display:inline-block;
     z-index: +1;
-    top:
-    left:
+    top: 60px;
+    left: 240px;
 }
 
 #drop_zone-body {
@@ -261,8 +262,8 @@ button#mutebtn{
     position: relative;
     display:inline-block;
     z-index: +1;
-    top:
-    left:
+    top: 250px;
+    left: 160px;
 }
 
 #drop_zone-feet {
@@ -275,8 +276,8 @@ button#mutebtn{
   position: relative;
   display:inline-block;
   z-index: +1;
-  top:
-  left:
+  top: 350px;
+  left: 65px;
 
 }
 
