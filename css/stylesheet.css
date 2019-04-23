@@ -292,7 +292,7 @@ button#mutebtn{
 #animation{
 	
 	left: 50%;
-	background: url("file:///C:/Users/Daniel%20M.%20Duvier/Documents/GitHub/project5/billeder/sprite.animation2.png");
+	background-image: url(/billeder/sprite.animation2.png);
 	width: calc(1854px/6);
 	height: 291px;
 	background-repeat: repeat;
