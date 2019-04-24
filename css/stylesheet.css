@@ -1,5 +1,5 @@
   body {
-  background-image: url("/billeder/spil_mobil.png");
+  background-image: url("../billeder/spil_mobil.png");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: Montserrat, sans-serif;
@@ -231,7 +231,7 @@ button#mutebtn{
 }
 
 #hat {
-   background-image: url("../billeder/panda.png");
+   background-image: url(.."/billeder/panda.png");
 
 }
 
@@ -301,7 +301,7 @@ button#mutebtn{
 #animation{
 
 	left: 50%;
-	background-image: url(/billeder/sprite.animation2.png);
+	background-image: url(../billeder/sprite.animation2.png);
 	width: calc(1854px/6);
 	height: 291px;
 	background-repeat: repeat;
@@ -331,7 +331,7 @@ button#mutebtn{
 
 @media screen and (min-width: 768px){
 body{
-  background-image: url("/billeder/spil.png");
+  background-image: url(.."/billeder/spil.png");
 }
 
 #boxes .box img {
