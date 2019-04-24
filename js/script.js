@@ -16,7 +16,7 @@ function backFunction() {
   let page2 = document.getElementById("page2");
   page2.style.display = "none";
   backButton.style.display = "none";
-  page1.style.display = "block";
+  x.style.display = "block";
 }
 
 
