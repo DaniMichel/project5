@@ -7,7 +7,6 @@
   line-height: 1.5;
   margin: 0;
   padding: 0;
-
 }
 
   /* Global */
@@ -229,15 +228,6 @@ button#mutebtn{
     box-shadow: 2px 2px 2px #999;
     cursor: move;
 }
-
-#hat {
-   background-image: url(.."/billeder/panda.png");
-
-}
-
-
-
-
 #app_status {
   text-align: center;
   margin-top: 5px;
@@ -331,7 +321,7 @@ button#mutebtn{
 
 @media screen and (min-width: 768px){
 body{
-  background-image: url(.."/billeder/spil.png");
+  background-image: url("../billeder/spil.png");
 }
 
 #boxes .box img {
