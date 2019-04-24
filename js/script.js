@@ -1,5 +1,5 @@
 //next button//
-function Function() {
+function checkFunction() {
   let x = document.getElementById("page1");
   let backButton = document.getElementById("backbtn")
   let page2 = document.getElementById("page2")
